@@ -10,7 +10,8 @@
 .buddy-avatar-promo .btn-primary{background:#f2842b;color:#fff;}
 .buddy-avatar-promo .btn-secondary{background:#f5efe6;color:#111;}
 
-lemon-slice-widget{transition:transform .25s ease;}
+lemon-slice-widget{transition:transform .25s ease;display:none;}
+lemon-slice-widget[controlled-widget-state="active"]{display:block;}
 @media (max-width:700px){
   lemon-slice-widget[controlled-widget-state="active"]{position:fixed!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%) scale(0.85)!important;transform-origin:center center!important;z-index:9999!important;max-height:90vh!important;}
 }
